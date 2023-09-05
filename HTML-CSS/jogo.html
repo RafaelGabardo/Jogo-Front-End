@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo</title>
     <link rel="stylesheet" href="jogo.css">
+    <script src="../JS/variables.js"></script>
 </head>
 <body>
     <section class="section-display">
         <div class="div-button">
             <div class="button">
-                <button onclick="upOnClick()">&#8593;</button>
+                <button id="up" onclick="upOnClick()">&#8593;</button>
             </div>
         </div>
         <div class="display">
             <div class="button">
                 <button onclick="leftOnClick()">&#8592;</button>
             </div>
-            <div id="image">
-                <img src="../Imagens/imagem-entrada-caverna.jpg" alt="imagem-entrada-caverna">
+            <div>
+                <img id="image" src="../Imagens/imagem-floresta-inicio.jpeg" alt="imagem-floresta-inicio">
             </div>           
             <div class="button">
                 <button onclick="rightOnClick()">&#8594;</button>
@@ -38,6 +39,6 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, asperiores? Aut necessitatibus ea repellat officia fugiat illo eos, minus, inventore iure harum cupiditate animi ipsam consectetur ad tenetur incidunt porro?</p>
         </div>
     </section>
-    <script src="../JS/jogo.js"></script>
+    <script src="../JS/functions.js"></script>
 </body>
 </html>
