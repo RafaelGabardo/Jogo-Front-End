@@ -9,7 +9,7 @@ const map = [
 ];
 
 const hero = {
-    name: '',
+    name: 'Rafael',
     life: 100,
     atk: 1,
     def: 0,
@@ -31,3 +31,6 @@ const images = {
     boss: '../Imagens/imagem-boss-caverna.jpg',
     friends: '../Imagens/imagem-final-caverna.jpg'
 }
+
+x = 0;
+y = 1;
