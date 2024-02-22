@@ -32,5 +32,5 @@ const images = {
     friends: '../Imagens/imagem-final-caverna.jpg'
 }
 
-x = 0;
-y = 1;
+let x = 1;
+let y = 0;
